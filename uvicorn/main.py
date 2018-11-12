@@ -65,14 +65,14 @@ def get_logger(log_level):
 @click.option(
     "--host",
     type=str,
-    default="127.0.0.1",
+    default="0.0.0.0",
     help="Bind socket to this host.",
     show_default=True,
 )
 @click.option(
     "--port",
     type=int,
-    default=8000,
+    default=8765,
     help="Bind socket to this port.",
     show_default=True,
 )
